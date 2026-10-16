@@ -1,0 +1,20 @@
+Why is a stack the right choice for undo/redo?
+    Stacking uses the last in, first out principle when a coder is writing code. 
+    The visual aid that was given was the idea of stacking plates on top of one another, 
+    the top plate is always chosen first before the one under it. This data structure is 
+    the best option for tasks that may need back tracking or the need to be reversed.
+
+Why is a queue better suited for the help desk?
+    Queues follow a similar yet different structure that stacking has, however the major
+    difference between the two is that queues use a principle of first in, first out instead
+    of the stacking principle which again is last in, first out. This structure is better 
+    suited for the help desk because in this situation the person that was there first is 
+    given assistance before the person that came after them.
+    
+How do your implementations differ from Python’s built-in lists?
+    The implementations that I used involved the use of nodes and pointers to manage data in stacks
+    and queues. Python's built-in lists store collections of data that you’re able to add/remove
+    from using .pop() or .append(). Within my implementations I was able to better understand how
+    stacks and queues function behind the scenes and operate when tested whereas Python allows for
+    an easier experience because the lists are already created for you to use.
+
